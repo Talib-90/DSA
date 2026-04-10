@@ -1,3 +1,4 @@
+# Time O(N) | O(1) S
 def longestPeak(array):
     longestPeakLength = 0
     i = 1
