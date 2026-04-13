@@ -21,7 +21,7 @@ class BST:
                     currentNode.right = BST(value)
                     break
                 else:
-                    currentNode = currentNode.left
+                    currentNode = currentNode.right
         return self
 
     # Avg O(log(N)) t | O(1) s
