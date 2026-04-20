@@ -8,8 +8,8 @@ def noOfWaysToMakeCoinChange(n, denoms):
                 ways[amount] += ways[amount - denom]
     return ways[n]
 
-# coin = [1,5,10,25]
-coin = [1,2,5]
-amount = 11
+coin = [1,5,10,25]
+# coin = [1,2,5]
+amount = 10
 
 print(noOfWaysToMakeCoinChange(amount, coin))
